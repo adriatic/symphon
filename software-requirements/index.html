@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Software Requirements - Symphony Design</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Software Requirements";
+    var mkdocs_page_input_path = "software-requirements.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Symphony Design</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">DEFINITIONS</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Software Requirements</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#1-introduction">1. Introduction</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-overall-description-describe-what-you-are-building-and-for-who">2. Overall Description: Describe what you are building and for who.</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3-system-features-and-requirements">3. System Features and Requirements</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../model/">Model</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../development-environment/">Development Environment</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../architecture/">Architecture</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../design/">Design</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../implementation/">Implementation</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../deployment/">Deployment</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">DELIVERABLES</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../samples/">Samples</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../skeletons/">Skeletons</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../symphony-application/">Symphony Application</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../important-notes/">Important Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Symphony Design</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>DEFINITIONS &raquo;</li>
+        
+      
+    
+    <li>Software Requirements</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="software-requirements">Software Requirements</h1>
+<p>Software requirements documents provide an important map of the product being built, the features that will be included and much more.</p>
+<p>This roadmap helps to keep the technical and non-technical team on the same wavelength as to what the expectations are. It helps to ensure that the product is built meeting the needs whether it’s for internal purposes, for users or clients. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<hr />
+<h3 id="1-introduction">1. Introduction</h3>
+<p>1.1 Purpose: Set the expectations for the outcome of the product.</p>
+<p>1.2 Intended Audience: Who is the software for? Who is the end-user? Will the software be used internally at a company or externally?</p>
+<p>1.3 Intended Use: What is the software for? What problem is it solving?</p>
+<p>This application should be serving several roles:</p>
+<ul>
+<li>
+<p>teaching tool for people interested in creating a complex distributed app with Strapi</p>
+</li>
+<li>
+<p>model to help Strapi core team to test and verify the new plugins 
+     (Identity Management being one of them - but not the only one)</p>
+</li>
+</ul>
+<p>1.4 Scope: Explain the scope of the software. What are the main goals and objectives? How do they relate to the company’s goals?</p>
+<p>1.5 Definitions and Acronyms: Provide an overview of any definitions the reader should understand before reading on.</p>
+<h3 id="2-overall-description-describe-what-you-are-building-and-for-who">2. Overall Description: Describe what you are building and for who.</h3>
+<p>2.1 User Needs: Explain the user needs for this software.</p>
+<p>2.2 Assumptions and Dependencies: What assumptions are you making that could cause an error in your approach? 
+    Is the project reliant on any other factors that could affect the development of the software?</p>
+<h3 id="3-system-features-and-requirements">3. System Features and Requirements</h3>
+<p>3.1 Functional Requirements: Take time to define the functional requirements that are essential for the software to build.</p>
+<p>3.2 External Interface Requirements: Are there any UX and UI requirements that you must keep in mind as you build?</p>
+<p>3.3 System Features: What features are required for the software to even work.</p>
+<p>3.4 Nonfunctional Requirements: Are there any non-functional requirements that you need to address (i.e. budget, team, etc.)</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Citation from <a href="https://blog.bit.ai/software-requirements-document/">BIT.AI</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../model/" class="btn btn-neutral float-right" title="Model">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../about/" class="btn btn-neutral" title="About"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../about/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../model/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

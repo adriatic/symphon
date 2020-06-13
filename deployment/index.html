@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Deployment - Symphony Design</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Deployment";
+    var mkdocs_page_input_path = "deployment.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Symphony Design</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">DEFINITIONS</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../software-requirements/">Software Requirements</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../model/">Model</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../development-environment/">Development Environment</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../architecture/">Architecture</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../design/">Design</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../implementation/">Implementation</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Deployment</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#phase-0">Phase 0</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#phase-1">Phase 1</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#phase-2">Phase 2</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">DELIVERABLES</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../samples/">Samples</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../skeletons/">Skeletons</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../symphony-application/">Symphony Application</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../important-notes/">Important Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Symphony Design</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>DEFINITIONS &raquo;</li>
+        
+      
+    
+    <li>Deployment</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="deployment">Deployment</h1>
+<h3 id="phase-0">Phase 0</h3>
+<p>The Project Symphony starts with the building of the Github gh-pages resident website, which serves as a complete set of markdown pages describing this project (purpose, mode, architecture, etc):</p>
+<p style="text-align:center">
+<img src="https://user-images.githubusercontent.com/2712405/83949611-dc68c780-a7f2-11ea-8950-1ca4a0f5f4b3.png">
+<br>
+Image 1
+</p>
+
+<h3 id="phase-1">Phase 1</h3>
+<p>Start with the process described as Deploying a Strapi API on Heroku</p>
+<hr />
+<h3 id="phase-2">Phase 2</h3>
+<p>Switch to more general process Quickly deploy Strapi to any cloud with Platform.sh</p>
+<p style="text-align:center">
+<img src="https://user-images.githubusercontent.com/2712405/83690969-abed1780-a5bf-11ea-8851-bf5079dd93d5.png">
+<br>
+Image 2
+</p>
+
+<p><strong>Note</strong>
+<br>
+This (<code>ONE CLICK DEPLOY BUTTON</code>) process will be described with greater details than in the existing blog article. It will become part of the Development Environment document</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../samples/" class="btn btn-neutral float-right" title="Samples">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../implementation/" class="btn btn-neutral" title="Implementation"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../implementation/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../samples/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
