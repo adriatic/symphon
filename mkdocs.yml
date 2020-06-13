@@ -1,0 +1,26 @@
+site_name: Symphony Design
+nav:
+  - Home: index.md
+  - About: about.md
+
+  - DEFINITIONS:
+    - Software Requirements: software-requirements.md
+    - Model: model.md
+    - Development Environment: development-environment.md
+    - Architecture: architecture.md
+    - Design: design.md
+    - Implementation: implementation.md
+    - Deployment: deployment.md
+
+  - DELIVERABLES:
+    - Samples: samples.md
+    - Skeletons: skeletons.md
+    - Symphony Application: symphony-application.md 
+    - Important Notes: important-notes.md
+
+theme: readthedocs
+
+markdown_extensions:
+  - footnotes
+
+
