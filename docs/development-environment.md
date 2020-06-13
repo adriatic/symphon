@@ -8,25 +8,25 @@ We plan to define the recommended development environment as a collection of the
 
 ### Sofware tools
 
-- VS Code
+- [VS Code](https://code.visualstudio.com/)
 
-- platform.sh
+- [platform.sh](https://platform.sh/)
 
-- figma prototyping
+- [figma](https://www.figma.com/) prototyping
 
-- Chrome browser [^note]
+- [Chrome](https://www.google.com/chrome/) browser [^note]
 
-- Brave browser [^note]
+- [Brave](https://brave.com/) browser [^note]
 
-- Firefox browser [^note]
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/) browser [^note]
 
-- react, vue, svelte frameworks
+- [react](https://reactjs.org/), [vue](https://vuejs.org/), [svelte](https://svelte.dev/) frameworks
 
-- Node, npm / yarn
+- [Node](https://vuejs.org/), [npm](https://www.npmjs.com/) / [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 ### Sources repository
 
-- lerna
-- yarn workspaces
+- [lerna](https://lerna.js.org/)
+- [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
 
 [^note]: all browsers include developer extensions for all frameworks
