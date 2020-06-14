@@ -133,7 +133,14 @@ Image 1
 <li>markdown files in the docs folder: https://github.com/adriatic/symphony-docs/tree/master/docs</li>
 </ul>
 <p>Typical update process consists of updating or adding markdown files in the <a href="https://github.com/adriatic/symphony-docs/tree/master/docs">docs</a> folder and making the correspondent changes to the <a href="https://github.com/adriatic/symphony-docs/blob/master/mkdocs.yml">mkdocs.yml</a> file.</p>
-<p>To make your changes persistent, commit and push the changes from the root folder (in my case the folder at <code>c:\work\symphony\symphony-docs</code>). In order to regenerate the site, run the command <code>mkdocs gh-deploy</code> from the same (root) folder. The updated host site is in the <code>gh-pages</code> branch - <code>https://github.com/adriatic/symphony-docs/tree/gh-pages</code></p>
+<p>To make your changes persistent, commit and push the changes from the root folder (in my case the folder at <code>c:\work\symphony\symphony-docs</code>). In order to regenerate the site, run the command <code>mkdocs gh-deploy</code> from the same (root) folder. The updated host site is in the <code>gh-pages</code> branch - <code>https://github.com/adriatic/symphony-docs/tree/gh-pages</code>:</p>
+<pre><code>λ mkdocs gh-deploy
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: c:\work\symphony\symphony-docs\site
+INFO    -  Documentation built in 0.17 seconds
+INFO    -  Copying 'c:\work\symphony\symphony-docs\site' to 'gh-pages' branch and pushing to GitHub.
+INFO    -  Your documentation should shortly be available at: https://adriatic.github.io/symphony-docs/
+</code></pre>
               
             </div>
           </div>
@@ -187,5 +194,5 @@ Image 1
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2020-06-14 15:27:47.007139+00:00
+Build Date UTC : 2020-06-14 15:29:08.945393+00:00
 -->
