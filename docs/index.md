@@ -1,6 +1,6 @@
 # Symphony Application Design Project
 
-**[This website](https://adriatic.github.io/symphony/)** is a structured collection of documents describing the details of Project Symphony, depicted below.
+**[This website](https://adriatic.github.io/symphony-docs/)** is a structured collection of documents describing the details of Project Symphony, depicted below.
 
 <p style="text-align:center">
 <img src="https://user-images.githubusercontent.com/2712405/83949611-dc68c780-a7f2-11ea-8950-1ca4a0f5f4b3.png">
