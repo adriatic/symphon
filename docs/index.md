@@ -20,4 +20,13 @@ This site is generated with **[mkdocs](https://www.mkdocs.org/)** tool. To maint
 
 Typical update process consists of updating or adding markdown files in the [docs](https://github.com/adriatic/symphony-docs/tree/master/docs) folder and making the correspondent changes to the [mkdocs.yml](https://github.com/adriatic/symphony-docs/blob/master/mkdocs.yml) file.
 
-To make your changes persistent, commit and push the changes from the root folder (in my case the folder at `c:\work\symphony\symphony-docs`). In order to regenerate the site, run the command `mkdocs gh-deploy` from the same (root) folder. The updated host site is in the `gh-pages` branch - `https://github.com/adriatic/symphony-docs/tree/gh-pages`
+To make your changes persistent, commit and push the changes from the root folder (in my case the folder at `c:\work\symphony\symphony-docs`). In order to regenerate the site, run the command `mkdocs gh-deploy` from the same (root) folder. The updated host site is in the `gh-pages` branch - `https://github.com/adriatic/symphony-docs/tree/gh-pages`:
+
+```
+λ mkdocs gh-deploy
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: c:\work\symphony\symphony-docs\site
+INFO    -  Documentation built in 0.17 seconds
+INFO    -  Copying 'c:\work\symphony\symphony-docs\site' to 'gh-pages' branch and pushing to GitHub.
+INFO    -  Your documentation should shortly be available at: https://adriatic.github.io/symphony-docs/
+```
